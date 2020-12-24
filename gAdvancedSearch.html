@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <div class="topRight">
+            <a href="index.html">Google Search</a>
+        </div>
+
+        <p id="findPagesWith">Find pages with...</p>
+        
+
+        <form action="https://www.google.com/search" id="advancedSearchField">
+            <table>
+                <tr>
+                    <td class="columnWidth">all these words:</td>
+                    <td class="tdFields"><input type="text" name="as_q" class="advancedSearchField"></td>
+                </tr>
+                <tr>
+                    <td class="columnWidth">exact word or phrase:</td>
+                    <td class="tdFields"><input type="text" name="as_epq" class="advancedSearchField"></td>
+                </tr>
+                <tr>
+                    <td class="columnWidth">any of these words:</td>
+                    <td class="tdFields"><input type="text" name="as_oq" class="advancedSearchField"></td>
+                </tr>
+                <tr>
+                    <td class="columnWidth">none of these words:</td>
+                    <td class="tdFields"><input type="text" name="as_eq" class="advancedSearchField"></td>
+                </tr>
+                <tr>
+                    <td class="columnWidth"></td>
+                    <td class="tdFields"><div style="text-align: right;"><input type="submit" value="Advanced Search" id="advancedSearchButton"></div></td>
+                </tr>
+            </table>
+            
+        </form>
+    </body>
+</html>
